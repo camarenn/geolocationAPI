@@ -163,7 +163,7 @@ body {margin:0px;}
 ```
 
 
-So there you have it your own working little geolcation app! No go on an experiment and create wonders!
+So there you have it your own working little geolcation app! Now go on an experiment and create wonders!
 
 
 
