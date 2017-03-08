@@ -4,7 +4,7 @@ Using the HTML5 Geolocation API, I built a simple app that requests the user's l
 <img src="demoscreenshot.png">
 
 <h3>HTML5 Geolocation API</h3>
-The geolocation API provides developers with scripted access to geographical information associated with the hosting device. Essentially it has allowed developers to focus more on the data they can extract and how to use it, rather than how to get it. However due to some out-lying factors the results aren’t always super accurate, and there for, shouldn’t be 100% relied on. 
+The geolocation API provides developers with scripted access to geographical information associated with the hosting device. Essentially it has allowed developers to focus more on the data they can extract and how to use it, rather than how to get it. However due to some out-lying factors the results aren’t always super accurate, and there for, shouldn’t be 100% relied upon. 
 
 <h3>Browser Compatibility</h3>
 As of right now HTML5's geolocation compatability is as such: 
@@ -31,15 +31,15 @@ As of right now HTML5's geolocation compatability is as such:
   <h3>Geolocation Methods</h3>
   The geolocation object can be used within JavaScript to gather location information about the device through the browser, and it uses three public methods.
   
-  <strong>getCurrentPostiion()</strong> :The get current position function does what you’d imagine it would, it grabs the coordinates of the devices location through the browser.</br>
+  <strong>getCurrentPostiion()</strong> :The get current position method does what you’d imagine it would, it grabs the coordinates of the devices location through the browser.</br>
   <strong>watchPosition()</strong> :The watch position method, updates the location at a set interval, so if the user was in a vehicle the location would change over time.</br>
-  <strong>clearWatch()</strong> :The clear watch method, is what stops watch position.</br>
+  <strong>clearWatch()</strong> :The clear watch method, is what stops watch position method.</br>
   
   <h3>Geolocation and Privacy</h3>
   Due to the nature of the geolocation API, the browser will always request permission to access the user’s location. The get current position function is what makes a request through the user’s browser, it is here that they will see a pop up that will ask them if they’d like to share their location or not.
   
   <h3>How it works</h3>
-  <p>Well for starters it's dependent on the brwoser, and from there it searches for numerous factors which include:</p>
+  <p>Well for starters it's dependent on the browser, and from there it searches for numerous factors which include:</p>
 <ul>
 <li>IP address</li>
 <li>Cell tower IDs</li>
@@ -49,14 +49,14 @@ As of right now HTML5's geolocation compatability is as such:
 </ul>
 Then each browser uses it’s own location services, and an approximate location is then returned, via a JavaScript callback.
 
-Where the user is makes a difference as well. For example they will yield more accurate results if they're in an urban area, versus a rural one, or if they're stationary, versus moving. Users who use a VPN to alter their location, will also get inaccurate results. 
+Where the user is, makes a difference as well. For example they will yield more accurate results if they're in an urban area, versus a rural one, or if they're stationary, versus moving. Users who use a VPN to alter their location, will also get inaccurate results. 
 
 <h3>So let's get to the code!</h3>
 
 <h4>Basic HTML comes first</h4>
 <img src="html.png">
 
-Once you have your basic template set up, you're going to insert script tags in the body. 
+Once you have your basic template set up, you're going to insert script tags into the body. 
 
 <h4>And now for the JavaScript</h4>
 You're going to want to use the getCurrentPosition() method, this will query the browser and will either run successfully, or will return an error to the user.
