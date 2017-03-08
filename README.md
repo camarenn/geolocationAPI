@@ -53,8 +53,7 @@ Where the user is makes a difference as well. For example they will yield more a
 
 <h3>So let's get to the code!</h3>
 
-<h4>Basic html comes first</h4>
-<img src="html.jpg">
+
 
 
 
